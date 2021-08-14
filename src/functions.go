@@ -10,7 +10,19 @@ import "fmt"
 // We can return function from a function.
 // we can declare anonymous/nameless functions.
 // We can achieve closures concept by using functions.
+
+//concept:
+// We can define functions by using func keyword.
+// return type is not mandatory.
+func hello() {
+	fmt.Println("Hello World!")
+}
+
 func main() {
+
+	// concept:
+	// we can call function by using function name like below.
+	hello()
 
 	//concept:
 	// We can store function inside a variable.
